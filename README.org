@@ -1,6 +1,13 @@
 * Example setup of opal-rails with a spec that works for both /opal_specs and rake opal:spec
 
-Steps taken
+* Software versions
+- Ruby 2.2.1
+- Rails 4.2.5
+- Opal 0.8.1
+- opal-rails 0.8.1
+- opal-rspec 0.4.3
+
+* Steps taken
 
 - rails new opal-rails-rspec-test --javascript=opal
 - convert application.js to application.js.rb
