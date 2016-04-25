@@ -1,0 +1,8 @@
+* Example setup of opal-rails with a spec that works for both /opal_specs and rake opal:spec
+
+Steps taken
+
+- rails new opal-rails-rspec-test --javascript=opal
+- convert application.js to application.js.rb
+- create app/assets/javascripts/demo.js.rb
+- create spec-opal/demo_spec.rb and spec-opal/spec_helper.rb
